@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="12" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-25T11:19:42 IST" name="Suite" finished-at="2024-07-25T11:20:56 IST" duration-ms="73555">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_AccountRegistrationTest.registrationTest()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5c08c46a]" name="registrationTest" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_003_ValidLogin.testValidLogin()[pri:0, instance:testCases.TC_003_ValidLogin@4218500f]" name="testValidLogin" class="testCases.TC_003_ValidLogin"/>
+        <method signature="TC_002_NavigateToRegister.testNavigateToRegisterViaRegister()[pri:1, instance:testCases.TC_002_NavigateToRegister@5829e4f4]" name="testNavigateToRegisterViaRegister" class="testCases.TC_002_NavigateToRegister"/>
+        <method signature="TC_002_NavigateToRegister.testNavigateToRegisterViaLogin_NewCustomer()[pri:2, instance:testCases.TC_002_NavigateToRegister@5829e4f4]" name="testNavigateToRegisterViaLogin_NewCustomer" class="testCases.TC_002_NavigateToRegister"/>
+        <method signature="TC_002_NavigateToRegister.testNavigateToRegisterViaLogin_Register()[pri:3, instance:testCases.TC_002_NavigateToRegister@5829e4f4]" name="testNavigateToRegisterViaLogin_Register" class="testCases.TC_002_NavigateToRegister"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_003_ValidLogin.testValidLogin()[pri:0, instance:testCases.TC_003_ValidLogin@4218500f]" name="testValidLogin" class="testCases.TC_003_ValidLogin"/>
+        <method signature="TC_002_NavigateToRegister.testNavigateToRegisterViaRegister()[pri:1, instance:testCases.TC_002_NavigateToRegister@5829e4f4]" name="testNavigateToRegisterViaRegister" class="testCases.TC_002_NavigateToRegister"/>
+        <method signature="TC_002_NavigateToRegister.testNavigateToRegisterViaLogin_NewCustomer()[pri:2, instance:testCases.TC_002_NavigateToRegister@5829e4f4]" name="testNavigateToRegisterViaLogin_NewCustomer" class="testCases.TC_002_NavigateToRegister"/>
+        <method signature="TC_002_NavigateToRegister.testNavigateToRegisterViaLogin_Register()[pri:3, instance:testCases.TC_002_NavigateToRegister@5829e4f4]" name="testNavigateToRegisterViaLogin_Register" class="testCases.TC_002_NavigateToRegister"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_AccountRegistrationTest.registrationTest()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5c08c46a]" name="registrationTest" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_003_ValidLogin.testValidLogin()[pri:0, instance:testCases.TC_003_ValidLogin@4218500f]" name="testValidLogin" class="testCases.TC_003_ValidLogin"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TC_001_AccountRegistrationTest.registrationTest()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5c08c46a]" name="registrationTest" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_003_ValidLogin.testValidLogin()[pri:0, instance:testCases.TC_003_ValidLogin@4218500f]" name="testValidLogin" class="testCases.TC_003_ValidLogin"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-07-25T11:19:42 IST" name="Test" finished-at="2024-07-25T11:20:56 IST" duration-ms="73555">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5c08c46a]" started-at="2024-07-25T11:19:42 IST" name="setUp" finished-at="2024-07-25T11:19:48 IST" duration-ms="5286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registrationTest()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5c08c46a]" started-at="2024-07-25T11:19:48 IST" name="registrationTest" finished-at="2024-07-25T11:19:53 IST" duration-ms="4982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@5c08c46a]" started-at="2024-07-25T11:19:53 IST" name="tearDown" finished-at="2024-07-25T11:19:53 IST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_005_RegisterDataDrivenTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_RegisterDataDrivenTest@1b2c4efb]" started-at="2024-07-25T11:20:44 IST" name="setUp" finished-at="2024-07-25T11:20:49 IST" duration-ms="5062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegistrationWithDiffCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_RegisterDataDrivenTest@1b2c4efb]" started-at="2024-07-25T11:20:50 IST" name="validateRegistrationWithDiffCredentials" data-provider="registerData" finished-at="2024-07-25T11:20:51 IST" duration-ms="1326" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hanson]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zzz989@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[444456789]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[zzz989@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[zzz989@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC_005_RegisterDataDrivenTest.validateRegistrationWithDiffCredentials(TC_005_RegisterDataDrivenTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationWithDiffCredentials -->
+        <test-method signature="validateRegistrationWithDiffCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_RegisterDataDrivenTest@1b2c4efb]" started-at="2024-07-25T11:20:51 IST" name="validateRegistrationWithDiffCredentials" data-provider="registerData" finished-at="2024-07-25T11:20:52 IST" duration-ms="1014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Klue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[klue262@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[444464464]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[klue@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[klue@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationWithDiffCredentials -->
+        <test-method signature="validateRegistrationWithDiffCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_RegisterDataDrivenTest@1b2c4efb]" started-at="2024-07-25T11:20:52 IST" name="validateRegistrationWithDiffCredentials" data-provider="registerData" finished-at="2024-07-25T11:20:53 IST" duration-ms="1011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Merry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Curie]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[merry123@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4444363522]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[merryC@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[merryC@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationWithDiffCredentials -->
+        <test-method signature="validateRegistrationWithDiffCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_RegisterDataDrivenTest@1b2c4efb]" started-at="2024-07-25T11:20:53 IST" name="validateRegistrationWithDiffCredentials" data-provider="registerData" finished-at="2024-07-25T11:20:54 IST" duration-ms="992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ken]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Japher]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ken1993@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[536253562]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ken@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ken@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationWithDiffCredentials -->
+        <test-method signature="validateRegistrationWithDiffCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_RegisterDataDrivenTest@1b2c4efb]" started-at="2024-07-25T11:20:54 IST" name="validateRegistrationWithDiffCredentials" data-provider="registerData" finished-at="2024-07-25T11:20:55 IST" duration-ms="1005" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kold]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sam@outlook.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[263562323]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sam@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sam@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC_005_RegisterDataDrivenTest.validateRegistrationWithDiffCredentials(TC_005_RegisterDataDrivenTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationWithDiffCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_RegisterDataDrivenTest@1b2c4efb]" started-at="2024-07-25T11:20:55 IST" name="tearDown" finished-at="2024-07-25T11:20:56 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_005_RegisterDataDrivenTest -->
+      <class name="testCases.TC_004_LoginDataDrivenTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_LoginDataDrivenTests@4bff64c2]" started-at="2024-07-25T11:20:14 IST" name="setUp" finished-at="2024-07-25T11:20:19 IST" duration-ms="5509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginWithDiffCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_LoginDataDrivenTests@4bff64c2]" started-at="2024-07-25T11:20:20 IST" name="validateLoginWithDiffCredentials" data-provider="LoginData" finished-at="2024-07-25T11:20:26 IST" duration-ms="6055" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavanoltraining@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC_004_LoginDataDrivenTests.validateLoginWithDiffCredentials(TC_004_LoginDataDrivenTests.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithDiffCredentials -->
+        <test-method signature="validateLoginWithDiffCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_LoginDataDrivenTests@4bff64c2]" started-at="2024-07-25T11:20:26 IST" name="validateLoginWithDiffCredentials" data-provider="LoginData" finished-at="2024-07-25T11:20:27 IST" duration-ms="1514" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laxmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC_004_LoginDataDrivenTests.validateLoginWithDiffCredentials(TC_004_LoginDataDrivenTests.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithDiffCredentials -->
+        <test-method signature="validateLoginWithDiffCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_LoginDataDrivenTests@4bff64c2]" started-at="2024-07-25T11:20:27 IST" name="validateLoginWithDiffCredentials" data-provider="LoginData" finished-at="2024-07-25T11:20:29 IST" duration-ms="1413" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laksh@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC_004_LoginDataDrivenTests.validateLoginWithDiffCredentials(TC_004_LoginDataDrivenTests.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithDiffCredentials -->
+        <test-method signature="validateLoginWithDiffCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_LoginDataDrivenTests@4bff64c2]" started-at="2024-07-25T11:20:29 IST" name="validateLoginWithDiffCredentials" data-provider="LoginData" finished-at="2024-07-25T11:20:35 IST" duration-ms="5911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laks@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithDiffCredentials -->
+        <test-method signature="validateLoginWithDiffCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_LoginDataDrivenTests@4bff64c2]" started-at="2024-07-25T11:20:35 IST" name="validateLoginWithDiffCredentials" data-provider="LoginData" finished-at="2024-07-25T11:20:36 IST" duration-ms="1574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithDiffCredentials -->
+        <test-method signature="validateLoginWithDiffCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_LoginDataDrivenTests@4bff64c2]" started-at="2024-07-25T11:20:36 IST" name="validateLoginWithDiffCredentials" data-provider="LoginData" finished-at="2024-07-25T11:20:42 IST" duration-ms="5877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HelloWorld@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithDiffCredentials -->
+        <test-method signature="validateLoginWithDiffCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_LoginDataDrivenTests@4bff64c2]" started-at="2024-07-25T11:20:42 IST" name="validateLoginWithDiffCredentials" data-provider="LoginData" finished-at="2024-07-25T11:20:44 IST" duration-ms="1455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[silco8918@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HelloWorld@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithDiffCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_LoginDataDrivenTests@4bff64c2]" started-at="2024-07-25T11:20:44 IST" name="tearDown" finished-at="2024-07-25T11:20:44 IST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_004_LoginDataDrivenTests -->
+      <class name="testCases.TC_003_ValidLogin">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_ValidLogin@4218500f]" started-at="2024-07-25T11:20:07 IST" name="setUp" finished-at="2024-07-25T11:20:12 IST" duration-ms="4929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLogin()[pri:0, instance:testCases.TC_003_ValidLogin@4218500f]" started-at="2024-07-25T11:20:12 IST" name="testValidLogin" finished-at="2024-07-25T11:20:13 IST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_ValidLogin@4218500f]" started-at="2024-07-25T11:20:13 IST" name="tearDown" finished-at="2024-07-25T11:20:14 IST" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_003_ValidLogin -->
+      <class name="testCases.TC_002_NavigateToRegister">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_NavigateToRegister@5829e4f4]" started-at="2024-07-25T11:19:53 IST" name="setUp" finished-at="2024-07-25T11:19:58 IST" duration-ms="5202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNavigateToRegisterViaRegister()[pri:1, instance:testCases.TC_002_NavigateToRegister@5829e4f4]" started-at="2024-07-25T11:19:58 IST" name="testNavigateToRegisterViaRegister" finished-at="2024-07-25T11:19:59 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToRegisterViaRegister -->
+        <test-method signature="testNavigateToRegisterViaLogin_NewCustomer()[pri:2, instance:testCases.TC_002_NavigateToRegister@5829e4f4]" started-at="2024-07-25T11:19:59 IST" name="testNavigateToRegisterViaLogin_NewCustomer" finished-at="2024-07-25T11:20:03 IST" duration-ms="3734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToRegisterViaLogin_NewCustomer -->
+        <test-method signature="testNavigateToRegisterViaLogin_Register()[pri:3, instance:testCases.TC_002_NavigateToRegister@5829e4f4]" started-at="2024-07-25T11:20:03 IST" name="testNavigateToRegisterViaLogin_Register" finished-at="2024-07-25T11:20:07 IST" duration-ms="3702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToRegisterViaLogin_Register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_NavigateToRegister@5829e4f4]" started-at="2024-07-25T11:20:07 IST" name="tearDown" finished-at="2024-07-25T11:20:07 IST" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_NavigateToRegister -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

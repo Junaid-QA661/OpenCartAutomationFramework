@@ -1,0 +1,14 @@
+testCases\TC_005_RegisterDataDrivenTest.class
+pageObjects\HomePage.class
+pageObjects\BaseObjectPage.class
+pageObjects\MyAccountPage.class
+utilities\ExcelUtility.class
+testBase\BaseClass.class
+pageObjects\AccountRegistrationPage.class
+testCases\TC_003_ValidLogin.class
+testCases\TC_002_NavigateToRegister.class
+pageObjects\LoginPage.class
+utilities\ExtentReportManager.class
+testCases\TC_001_AccountRegistrationTest.class
+utilities\DataProviders.class
+testCases\TC_004_LoginDataDrivenTests.class
